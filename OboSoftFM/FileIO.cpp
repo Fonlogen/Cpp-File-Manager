@@ -1,6 +1,6 @@
 #include "FileIO.h"
 
-bool OboSoft::writeToFile(std::string filePath, 
+bool OboSoft::WriteToFile(std::string filePath, 
     std::string &content)
 {
     std::ofstream file(filePath);
@@ -18,7 +18,7 @@ bool OboSoft::writeToFile(std::string filePath,
     
 }
 
-std::string OboSoft::readFromFile(std::string filePath)
+std::string OboSoft::ReadFromFile(std::string filePath)
 {
     std::string line;
     std::string text = "";
